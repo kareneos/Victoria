@@ -1,0 +1,17 @@
+/*Bootstrap*/
+@import "_bootstrap";
+
+/*ANIMATE ON SCROLL*/
+// @import "_aos";
+
+/*Base*/
+@import "_base/utilities";
+@import "_base/colors";
+@import "_base/fonts";
+@import "_base/general";
+@import "_base/navigation";
+@import "_base/footer";
+
+/*Pages*/
+@import "_pages/home";
+

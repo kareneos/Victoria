@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    @media screen and (max-width: 768px) {
+        font-size: 27px;
+    }
+}
+h6{
+    @media screen and (max-width: 768px) {
+        font-size: 13px;
+    }
+}
+p{
+    @media screen and (max-width: 768px) {
+        font-size: 13px;
+    }
+}

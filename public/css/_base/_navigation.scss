@@ -1,0 +1,70 @@
+//NAVIGATION BAR
+.main-nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100vw;
+    transition: 0.3s;
+    @media screen and (min-width: 768px) {
+        top: 10px;
+    }
+    @media screen and (min-width: 1200px) {
+        padding: 0 30px;
+    }
+    &.mobile{
+        background: #EDEDED;
+        box-shadow: 0px 0px 10px rgba($black, 0.5);
+        .fa-bars:before {
+            content: "\f00d";
+        }
+        .navbar-nav .nav-link{
+            text-align: center;
+        }
+    }
+    // links
+    &_link{
+        cursor: pointer;
+        color: goldenrod;
+        margin: 0 3px;
+        opacity: 0.7;
+        transition: 0.3s;
+        @media screen and (min-width: 768px) and (max-width: 991px) {
+            font-size: 12px;
+            margin-right: 10px;
+        }
+        &:hover{
+            text-shadow: 0 0 .65px goldenrod, 0 0 .65px goldenrod;
+            color: goldenrod;
+            opacity: 1;
+        }
+        &:focus, &:active{
+            color: goldenrod;
+            outline: none;
+        }
+    }
+    // logo
+    &_logo{
+        position: absolute;
+        width: 16%;
+        top: 0;
+        @media screen and (min-width: 1200px) {
+            max-width: 100px;
+        }
+    }
+    // menu icon
+    .navbar-toggler{
+        position: relative;
+        right: -15px;
+        top: 0;
+        @media screen and (min-width: 768px) {
+            top: -10px;
+        }
+        &:focus{
+            outline: none;
+        }
+    }
+    .navbar-toggler-icon{
+        color: goldenrod;
+    }
+}

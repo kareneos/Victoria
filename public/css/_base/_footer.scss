@@ -1,0 +1,41 @@
+.footer{
+    background-color: $black;
+    padding: 16px 10px;
+    margin-top: -7px;
+    @media screen and (min-width: 768px) {
+        padding: 16px 50px;
+    }
+    // text
+    &_text{
+        font-size: 0.7em;
+        margin-bottom: 8px;
+        @media screen and (min-width: 768px) {
+            margin-bottom: 0;
+        }
+    }
+    //social
+    &_social{
+        text-align: center;
+        @media screen and (min-width: 768px) {
+            text-align: right;
+        }
+    }
+    &_social-link{
+        opacity: 0.5;
+        border: 1px solid $white;
+        padding: 3px;
+        margin: 0 2px;
+        font-size: 0.7em;
+        color: $white;
+        width: 2em;
+        height: 2em;
+        display: inline-block;
+        text-align: center;
+        &:hover{
+            opacity: 1;
+            i{
+                color: $white;
+            }
+        }
+    }
+}
