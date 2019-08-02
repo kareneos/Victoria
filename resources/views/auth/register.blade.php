@@ -40,6 +40,14 @@
                         </div>
 
                         <div class="form-group row">
+                            <label for="empresa" class="col-md-4 col-form-label text-md-right">Empresa</label>
+
+                            <div class="col-md-6">
+                                <input id="empresa" type="empresa" class="form-control" name="empresa" value="{{ old('empresa') }}" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
                             <label for="password" class="col-md-4 col-form-label text-md-right">Contraseña</label>
 
                             <div class="col-md-6">
