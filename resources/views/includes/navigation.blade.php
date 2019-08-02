@@ -15,13 +15,13 @@
     <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link main-nav_link" href="/#intro">Inicio</a>
+                <a class="nav-link main-nav_link" href="/">Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link main-nav_link" href="/#about">Registro</a>
+                <a class="nav-link main-nav_link" href="/">Registro</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link main-nav_link" href="/#experience">Login</a>
+                <a class="nav-link main-nav_link" href="/login">Login</a>
             </li> 
         </ul>
     </div> 

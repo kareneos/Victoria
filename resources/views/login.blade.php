@@ -1,13 +1,13 @@
-@extends('master')
+@extends('layout.master')
 
 @section('content')
     <!-- NAVIGATION BAR -->
-    @include('navigation')
+    @include('includes.navigation')
 
     <h1 class="text-center pd-10">LOGIN</h1>
 
     <!-- FOOTER -->
-    @include('footer')
+    @include('includes.footer')
 @endsection
 
 @section('js')

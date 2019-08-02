@@ -12,7 +12,6 @@
 */
 
 Route::get('/', 'PagesController@home');
-Route::get('/register', 'PagesController@register');
 Route::get('/login', 'PagesController@login');
 
 
