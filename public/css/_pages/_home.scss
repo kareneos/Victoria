@@ -1,0 +1,56 @@
+.home {
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    .prov-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-size: cover;
+        height: 30vh;
+        width: 100%;
+        margin-top: 15px;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover {
+            filter: grayscale(50%);
+            transform: scale(1.02);
+        }
+    }
+    .category-title {
+        width: 100%;
+        font-size: 1.5rem;
+        text-shadow: 2px 2px rgba(48, 44, 44, 0.9);
+    }
+    .textil {
+        background-image: url("/images/telas.jpg");
+    }
+    .shoes {
+        background-image: url("/images/shoes.jpg");
+        background-position-y: 60%;
+    }
+    .packing {
+        background-image: url("/images/packing.jpg");
+    }
+    .electronics {
+        background-image: url("/images/electronica.jpg");
+    }
+    .legal {
+        background-image: url("/images/legal.jpg");
+    }
+    .makeup {
+        background-image: url("/images/makeup.jpg");
+    }
+    .pet {
+        background-image: url("/images/pet.jpg");
+    }
+    .tech {
+        background-image: url("/images/tech.jpg");
+    }
+    .toy {
+        background-image: url("/images/toy.jpg");
+    }
+}
