@@ -8,6 +8,7 @@
         </div>
     </div>
 </div>
+@include('includes.chat')
 @endsection
 
 @section('js')

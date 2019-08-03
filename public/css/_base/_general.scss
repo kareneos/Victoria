@@ -1,30 +1,42 @@
 /*UTILITIES*/
-html, body {
+
+html,
+body {
     box-sizing: border-box;
     overflow-x: hidden;
     overflow: hidden auto;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
-button{
+
+button {
     cursor: pointer;
 }
-.mx-auto{
+
+.mx-auto {
     display: block;
 }
-.hidden-xs{
-    @media screen and (max-width: 767px){
+
+.hidden-xs {
+    @media screen and (max-width: 767px) {
         display: none!important;
     }
 }
-.visible-xs{
+
+.visible-xs {
     display: none!important;
-    @media screen and (max-width: 767px){
+    @media screen and (max-width: 767px) {
         display: block!important;
     }
 }
+
+
 /* Grow effect*/
+
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -40,11 +52,16 @@ button{
     transition-property: transform;
 }
 
-.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+
+
 /* Rotate */
+
 .hvr-rotate {
     display: inline-block;
     vertical-align: middle;
@@ -58,13 +75,18 @@ button{
     transition-duration: 0.3s;
     -webkit-transition-property: transform;
     transition-property: transform;
-  }
-  .hvr-rotate:hover, .hvr-rotate:focus, .hvr-rotate:active {
+}
+
+.hvr-rotate:hover,
+.hvr-rotate:focus,
+.hvr-rotate:active {
     -webkit-transform: rotate(4deg);
     transform: rotate(4deg);
-  }
+}
 
-  /* Float */
+
+/* Float */
+
 .hvr-float {
     display: inline-block;
     vertical-align: middle;
@@ -80,30 +102,58 @@ button{
     transition-property: transform;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
-  }
-  .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+}
+
+.hvr-float:hover,
+.hvr-float:focus,
+.hvr-float:active {
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
-  }
-  //GENERAL
-  .card-header{
+}
+
+//GENERAL
+.card-header {
     color: $white;
     background: $green;
     text-align: center;
     font-size: 1.5rem;
-  }
-  .card{
+}
+
+.card {
     border-color: $green;
-    .btn-primary{
+    .btn-primary {
         background: $purple;
         border-color: $purple;
     }
-    .btn-link{
-        color:#007ACC;
+    .btn-link {
+        color: #007ACC;
         display: block;
         font-size: 0.8rem;
         text-align: left;
         padding: 0;
         margin-top: 13px;
     }
-  }
+}
+
+.chat {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: $orange-victoria;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    color: white;
+    text-align: center;
+    &:hover {
+        text-decoration: none;
+        color: white;
+    }
+    .fas {
+        font-size: 2rem;
+        &:hover {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
