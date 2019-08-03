@@ -10,16 +10,15 @@ recomiendan.
 ## Solución
 Crear un directorio donde las emprendedoras podrán acceder y recomendar rápidamente a la información de proveedores válidados de alta calidad y de otras emprendedoras.
 
-Asimismo, ofrecerles a las administradoras hacer seguimiento de los perfiles, de las alianzas e interacciones entre las emprendedoras a tráves de un formulario. También implementaremos
-a Watson como asistente personal que les permitirá buscar directamente a los proveedores a traves de un chat y obtener información adicional.
+Asimismo, ofrecerles a las administradoras hacer seguimiento de los perfiles, de las alianzas e interacciones entre las emprendedoras a tráves de un formulario. También implementaremos a Watson como asistente personal que les permitirá buscar directamente a los proveedores a traves de un chat y obtener información adicional.
 
 ## Arquitectura
 El directorio Victoria estará estructurado de la siguiente manera:
 - Home
     - Registro 
     - Inicio de sesión
-- Barra de navegación: podrás utilizar el buscador, acceder a tu perfil y cerrar sesión.
-- Directorio: donde podrás consultar la lista completa de proveedores de diferentes categorías y podrás filtrarlo por sector, los mejores puntuados, ubicación y un buscador.
+- Barra de navegación: podrán utilizar el buscador, acceder a su perfil y cerrar sesión.
+- Directorio: donde podrán consultar la lista completa de proveedores de diferentes categorías y podrás filtrarlo por sector, los mejores puntuados, ubicación y un buscador.
 - Resultados: encontrarán fichas técnicas que cumplen con la búsqueda de la emprendedora.
 - Perfil: donde podrán consultar sus alianzas, sus proveedores recomendados(favoritos).
     - Favoritos: donde podrás consultar los proveedores que te interesan o cumplen con tus expectativas.
