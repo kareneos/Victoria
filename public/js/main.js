@@ -1,7 +1,7 @@
 // HOME
 $(document).ready(function(){
     // animations
-    // AOS.init();
+    AOS.init();
     //scroll smoothly
     $(function() {
         $('#havbar a').click(function() {

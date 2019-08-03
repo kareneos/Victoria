@@ -15,7 +15,9 @@ Route::group(['prefix' => 'admin'], function () {
 });
 
 Auth::routes();
-Route::get('/', 'HomeController@welcome')->name('welcome');
+Route::get('/', function () {
+    return view('welcome');
+});
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/lista-proveedores', 'HomeController@listaProveedores')->name('lista-proveedores');
 Route::get('/resultado-busqueda', 'HomeController@resultadoBusqueda')->name('resultado-busqueda');
