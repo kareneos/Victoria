@@ -21,8 +21,26 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
+    
+    public function welcome()
+    {
+        return view('welcome');
+    }
     public function index()
     {
         return view('home');
     }
+    public function listaProveedores()
+    {
+        return view('lista-proveedores');
+    }
+    public function resultadoBusqueda()
+    {
+        return view('resultado-busqueda');
+    }
+    public function perfil()
+    {
+        return view('perfil');
+    }
+
 }
