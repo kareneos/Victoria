@@ -10,8 +10,8 @@
                             <div data-aos="fade-up-right" data-aos-duration="1000">
                                 <img class="welcome_title" src="{{asset('/images/victoria-orange.png')}}" alt="Victoria">
                                 <p class="welcome_text">Bienvenida al directorio de Victoria 147</p> 
-                                <a class="welcome_btn welcome_btn--register" href="{{url('/register')}}">REGÍSTRATE</a>
-                                <a class="welcome_btn welcome_btn--login" href="{{url('/login')}}">INICIA SESIÓN</a>
+                                <a class="welcome_btn welcome_btn--register hvr-float" href="{{url('/register')}}">REGÍSTRATE</a>
+                                <a class="welcome_btn welcome_btn--login hvr-float" href="{{url('/login')}}">INICIA SESIÓN</a>
                             </div>
                         </div>
                         <div class="hidden-xs col-md-6 pd-0">
