@@ -19,6 +19,9 @@
         color: $white;
         font-size: 14px;
         display: inline-block;
+        &:hover{
+            text-decoration: none;
+        }
         &--register{
             background-color: #49E0A4;
         }

@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md main-nav">
     <!-- Brand -->
     <a class="navbar-brand" href="/">
-        <img class="main-nav_logo" src="{{asset('/images/logo.png')}}" alt="Logo">
+        <img class="main-nav_logo" src="{{asset('/images/victoria-orange.png')}}" alt="Logo">
     </a>
 
     <!-- Collapsibe Button -->
