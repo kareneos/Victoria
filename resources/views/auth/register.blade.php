@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container mt-10">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
+<div class="container-fluid register">
+    <div class="row align-items-center">
+        <div class="col-12 col-md-6">
+            <div class="card" data-aos="fade-up-right" data-aos-duration="1000">
                 <div class="card-header">Regístrate</div>
 
                 <div class="card-body">
@@ -71,7 +71,7 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn btn-primary hvr-float">
                                     Regístrate
                                 </button>
                             </div>
@@ -79,6 +79,10 @@
                     </form>
                 </div>
             </div>
+        </div>
+
+        <div class="hidden-xs col-md-6 pd-0">
+            <img class="register_image" data-aos="fade-left" data-aos-duration="1000" src="{{asset('/images/registro-image.jpg')}}" alt="Victoria image">
         </div>
     </div>
 </div>

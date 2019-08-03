@@ -45,10 +45,11 @@
     // logo
     &_logo{
         position: absolute;
-        width: 16%;
+        width: 20%;
+        max-width: 120px;    
         top: 0;
         @media screen and (min-width: 1200px) {
-            max-width: 100px;
+            max-width: 140px;
         }
     }
     // menu icon
