@@ -1,0 +1,1 @@
+<a href="https://assistant-chat-us-east.watsonplatform.net/web/public/1ffd6f8f-d546-4fe4-ac91-9084f1875a3e" target="_blank">Chat</a>

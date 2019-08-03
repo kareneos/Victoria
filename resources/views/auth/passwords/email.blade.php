@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container mt-10">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
+<div class="container contrasena">
+    <div class="row">
+        <div class="col-12 col-md-6 pt-10">
+            <div class="card" data-aos="fade-up-right" data-aos-duration="1000">
                 <div class="card-header">Restablecer contraseña</div>
 
                 <div class="card-body">
@@ -41,6 +41,9 @@
                     </form>
                 </div>
             </div>
+        </div>
+        <div class="hidden-xs col-md-6 pd-0">
+            <img class="login_image" data-aos="fade-left" data-aos-duration="1000" src="{{asset('/images/contrasena-image.jpg')}}" alt="Victoria image">
         </div>
     </div>
 </div>
