@@ -94,6 +94,9 @@ button{
   }
   .card{
     border-color: $green;
+    @media screen and (max-width: 768px){
+        margin: 50px auto;
+    }
     .btn-primary{
         background: $purple;
         border-color: $purple;
