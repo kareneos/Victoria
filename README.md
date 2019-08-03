@@ -21,26 +21,30 @@ El directorio Victoria estará estructurado de la siguiente manera:
 - Directorio: donde podrán consultar la lista completa de proveedores de diferentes categorías y podrás filtrarlo por sector, los mejores puntuados, ubicación y un buscador.
 - Resultados: encontrarán fichas técnicas que cumplen con la búsqueda de la emprendedora.
 - Perfil: donde podrán consultar sus alianzas, sus proveedores recomendados(favoritos).
-    - Favoritos: donde podrás consultar los proveedores que te interesan o cumplen con tus expectativas.
-    - Alianzas: emprendedoras que hayan trabajado contigo o que les interese contactarlas.
+    - Favoritos: donde podrán consultar los proveedores que les interesen o cumplen con sus expectativas.
+    - Alianzas: emprendedoras que hayan trabajado con otras emprendedoras o que les interese contactarlas.
 
 ## Roadmap
 - Mail de invitación que las dirigirá a la página de registro.
-- De registro llenas un formulario y al terminar te redirige al Directorio.
-- Desde esta pantalla puedes acceder a las categorías del directorio.
+- De registro llenan un formulario y al terminar las redirige al Directorio.
+- Desde esta pantalla podrán acceder a las categorías del directorio.
 - Una vez que elijan una categoría verán las fichas técnicas de todos los proveedores de la misma.
 - Al elegir un proveedor se abrirá un modal con la ficha técnica general con la información de contacto, calificación y comentarios de otras emprendedoras.
 
-- Desde la barra de navegación seleccionando el logo te regresa al directorio;
+- Desde la barra de navegación seleccionando el logo las regresará al directorio y donde podrán ver las opciones del menú hamburguesa que son:
+   -perfil
+   -alianzas y proveedores
+   -favoritos
+   -cerrar sesión
 
 ## Tecnologías
 - HTML 5
 - Javascript ES6
 - CSS SASS
-- Php, framework: Laravel.
-- Watson assistent.
+- Php, framework: Laravel
+- Watson assistent
 
-## Seguridads
+## Seguridad
 Solo podrán registrarse al directorio por medio de un link que les enviarán  por correo electrónico a las emprendedoras las administradoras donde se validará que 
 sean parte de la comunidad. 
 
@@ -48,6 +52,4 @@ Solo las administradoras tendrán acceso a la información completa de las empre
 
 Toda la información estará encriptada.
 
-Se utilizará la Tool chain de IBM Cloud y SON IQ en pruebas unitarias para detectar vulnerabilidades.
-
-
+Se utilizará la Tool chain de IBM Cloud y Sonarqube en pruebas unitarias para detectar vulnerabilidades.
