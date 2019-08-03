@@ -22,6 +22,22 @@
             text-align: center;
         }
     }
+    // search
+    form{
+        position: absolute;
+        left: 27%;
+        top: 5px;
+        width: 55%;
+        @media screen and (min-width: 768px) {
+            left: 200px;
+        }
+        button{
+            @media screen and (max-width: 767px) {
+                position: absolute;
+                right: 0;
+            }
+        }
+    }
     // links
     &_link{
         cursor: pointer;

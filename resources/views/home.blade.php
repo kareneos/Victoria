@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container home mt-10">
+<div class="container home mt-15">
     <div class="row">
         <div class="col-12">
         <h1>Directorio</h1>

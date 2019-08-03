@@ -132,26 +132,27 @@
                 margin-top: 13px;
             }
         }
-        .chat {
-            position: fixed;
-            right: 10px;
-            bottom: 10px;
-            background-color: $orange-victoria;
-            border-radius: 50%;
-            width: 4rem;
-            height: 4rem;
+        
+    }
+    .chat {
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        background-color: $orange-victoria;
+        border-radius: 50%;
+        width: 4rem;
+        height: 4rem;
+        color: white;
+        text-align: center;
+        &:hover {
+            text-decoration: none;
             color: white;
-            text-align: center;
+        }
+        .fas {
+            font-size: 2rem;
             &:hover {
                 text-decoration: none;
                 color: white;
-            }
-            .fas {
-                font-size: 2rem;
-                &:hover {
-                    text-decoration: none;
-                    color: white;
-                }
             }
         }
     }

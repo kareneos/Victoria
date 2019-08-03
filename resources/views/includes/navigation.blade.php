@@ -11,6 +11,11 @@
         </span>
     </button>
 
+    <!-- search -->
+    <form class="form-inline" action="/action_page.php">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-success" type="submit"><a href="{{url('/resultado-busqueda')}}">Buscar</a></button>
+    </form>
     <!-- Navbar links -->
     <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav ml-auto">
@@ -30,6 +35,12 @@
                     </a>
 
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="{{url('/home')}}">
+                            Directorio
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            Mi perfil
+                        </a>
                         <a class="dropdown-item" href="{{ route('logout') }}"
                             onclick="event.preventDefault();
                             document.getElementById('logout-form').submit();">
