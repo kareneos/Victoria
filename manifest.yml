@@ -1,6 +1,6 @@
 applications:
 - path: .
-  memory: 256M
+  memory: 128M
   instances: 1
   name: simple-toolchain-Tech-Army
   random-route: true
