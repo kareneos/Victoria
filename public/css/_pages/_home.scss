@@ -2,6 +2,7 @@
     h1 {
         text-align: center;
         font-size: 2rem;
+        color: #C5C4D4;
     }
     .prov-content {
         display: flex;
@@ -17,7 +18,9 @@
         transition: 0.3s;
         &:hover {
             filter: grayscale(50%);
-            transform: scale(1.02);
+            .category-title {
+                font-size: 2rem;
+            }
         }
     }
     .category-title {
