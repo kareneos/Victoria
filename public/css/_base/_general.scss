@@ -115,12 +115,12 @@
     
     .card {
         border-color: $green;
-        <<<<<<< HEAD .btn-primary {
-            =======@media screen and (max-width: 768px) {
+        .btn-primary {
+            @media screen and (max-width: 768px) {
                 margin: 50px auto;
             }
             .btn-primary {
-                >>>>>>>upstream/master background: $purple;
+                background: $purple;
                 border-color: $purple;
             }
             .btn-link {
@@ -154,3 +154,4 @@
                 }
             }
         }
+    }
