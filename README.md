@@ -4,10 +4,6 @@
 Las emprendedoras de Victoria 147 no cuentan con un directorio donde puedan encontrar de manera fácil y rápida proveedores
 confiables y alianzas entre ellas que les ayude a impulsar su negocio.
 
-// directorio, porque, validación, que tipo de proveedor,  saber que hace falta, que pasó despues se consolidó la alianza o no?, como esto les
-ayuda a hacer negocios, muuuucha información, información de cada usuario (confidencial), identificador, proveedores de alta calidad, validación de correo 
-electrónico, 
-
 Las administradoras de Victoria 147 no tienen el control de las alianzas ni registro de los proveedores que las mismas emprendedoras
 recomiendan. 
 
@@ -27,7 +23,7 @@ El directorio Victoria estará estructurado de la siguiente manera:
 - Resultados: encontrarán fichas técnicas que cumplen con la búsqueda de la emprendedora.
 - Perfil: donde podrán consultar sus alianzas, sus proveedores recomendados(favoritos).
     - Favoritos: donde podrás consultar los proveedores que te interesan o cumplen con tus expectativas.
-    - Alianzas: emprendedoras que hayan trabajado contigo.
+    - Alianzas: emprendedoras que hayan trabajado contigo o que les interese contactarlas.
 
 ## Roadmap
 - Mail de invitación que las dirigirá a la página de registro.
@@ -43,8 +39,16 @@ El directorio Victoria estará estructurado de la siguiente manera:
 - Javascript ES6
 - CSS SASS
 - Php, framework: Laravel.
-- Watson assitent
+- Watson assistent.
 
-## Seguridad
+## Seguridads
+Solo podrán registrarse al directorio por medio de un link que les enviarán  por correo electrónico a las emprendedoras las administradoras donde se validará que 
+sean parte de la comunidad. 
+
+Solo las administradoras tendrán acceso a la información completa de las emprendedoras. 
+
+Toda la información estará encriptada.
+
+Se utilizará la Tool chain de IBM Cloud y SON IQ en pruebas unitarias para detectar vulnerabilidades.
 
 
