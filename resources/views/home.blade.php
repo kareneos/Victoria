@@ -9,6 +9,15 @@
     </div>
 
     <div class="row text-center">
+        <a href="/lista-proveedores">
+            <div class="col-6 col-md-4">
+            <a href="/lista-proveedores">
+                <div class="prov-content toy">
+                    <p class="category-title">Juguetes</p>
+                </div>
+            </a>
+            </div>
+
         <div class="col-6 col-md-4">
             <div class="prov-content textil">
                 <p class="category-title">Textil</p>
@@ -49,14 +58,11 @@
                 <p class="category-title">Mascotas</p>
             </div>
         </div>
-        <div class="col-6 col-md-4">
-            <div class="prov-content toy">
-                <p class="category-title">Juguetes</p>
-            </div>
-        </div>
+        
     </div>
 </div>
 @endsection
 
 @section('js')
+
 @endsection

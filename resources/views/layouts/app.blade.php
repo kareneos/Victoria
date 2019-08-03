@@ -23,11 +23,11 @@
 
 </head>
 <body>
-    <div id="app">
+    
         @include('includes.navigation')
         
         @yield('content')
-    </div>
+    
 
     <!-- Scripts -->
     <script src="{{asset('/js/jquery.min.js')}}"></script>

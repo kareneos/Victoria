@@ -1,0 +1,85 @@
+.lista-proveedores {
+    .box-prov {
+        background-size: cover;
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: end;
+        margin-top: 15px;
+        cursor: pointer;
+        .info-prov {
+            display: flex;
+            align-self: flex-end;
+            justify-content: space-between;
+            height: 2.5rem;
+            background-color: #49E0A4;
+            width: 100%;
+            padding: 0.5rem;
+            color: white;
+        }
+        .favorite {
+            display: flex;
+            align-self: flex-end;
+            align-items: flex-end;
+            color: #fc5145;
+            font-size: 1.5rem;
+            padding: 0.5rem;
+            cursor: pointer;
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+    .prov1 {
+        background-image: url("/images/proveedor1.png");
+    }
+    .prov2 {
+        background-image: url("/images/proveedor2.png");
+    }
+    .prov3 {
+        background-image: url("/images/proveedor3.png");
+    }
+    .prov4 {
+        background-image: url("/images/proveedor4.png");
+    }
+}
+
+.modal-dialog {
+    @media (min-width: 576px) {
+        max-width: 700px;
+    }
+    .modal-content {
+        display: flex;
+        .modal-body {
+            display: flex;
+            flex-direction: column;
+            .modal-body i {
+                color: #fc5145;
+            }
+            @media (min-width: 576px) {
+                flex-direction: row;
+            }
+        }
+        .provider-img {
+            width: 10rem;
+        }
+        .info {
+            margin: 0 0 1rem 0;
+            @media (min-width: 576px) {
+                margin: 0 2rem;
+            }
+        }
+        .info p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+        .info h5 {
+            font-size: 1rem;
+            color: #fc5145;
+            font-weight: 600;
+            margin-top: 1rem;
+        }
+    }
+}
