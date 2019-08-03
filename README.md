@@ -53,3 +53,6 @@ Solo las administradoras tendrán acceso a la información completa de las empre
 Toda la información estará encriptada.
 
 Se utilizará la Tool chain de IBM Cloud y Sonarqube en pruebas unitarias para detectar vulnerabilidades.
+
+## Presentación
+https://www.canva.com/design/DADhje3okMA/nsR7YqizRyjhV464FJdJmw/view?utm_content=DADhje3okMA&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
