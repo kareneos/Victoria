@@ -34,6 +34,7 @@
     <script src="{{asset('/js/popper.min.js')}}"></script>
     <script src="{{asset('/js/bootstrap.min.js')}}"></script>
     <script src="{{asset('/js/fontawesome.min.js')}}"></script>
+    <script src="{{asset('/js/aos.min.js')}}"></script>
     <script src="{{asset('/js/main.js')}}"></script>
     @yield('js')
 </body>
